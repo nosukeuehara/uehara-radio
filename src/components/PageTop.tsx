@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const PageTop = () => {
   return (
-    <div className="bg-blue-400 w-full h-screen flex items-center justify-center">
+    <div className="bg-amber-200 w-full h-screen flex items-center justify-center">
       <div className="relative w-60 h-60 sm:w-60 sm:h-60 md:w-80 md:h-80 lg:w-[400px] lg:h-[400px]">
         <Image
           src="/toppageImg.png"
