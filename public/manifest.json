@@ -1,0 +1,17 @@
+{
+  "name": "ウエハラレイデイオ",
+  "short_name": "ウエハラレイデイオ",
+  "description": "ウエハラ シンタロウが運営するポッドキャスト・YouTube・stand.fmの公式サイト",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#27515c",
+  "theme_color": "#27515c",
+  "orientation": "portrait-primary",
+  "lang": "ja",
+  "dir": "ltr",
+  "categories": [
+    "entertainment",
+    "music",
+    "news"
+  ]
+}

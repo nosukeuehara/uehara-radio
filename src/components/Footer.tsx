@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="text-center text-sm text-gray-500 bg-cyan-50 py-6">
-        © 2025 「上 / 原」. All rights reserved.
+        © 2026 上 / 原. All rights reserved.
       </footer>
     </div>
   );
