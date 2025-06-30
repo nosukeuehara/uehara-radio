@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "ウエハラレィディオは、ウエハラ シンタロウが運営するポッドキャスト・YouTube・stand.fmの公式サイトです。プロフィールや番組情報、おたより投稿フォームなどをご利用いただけます。",
   keywords:
     "ウエハラレィディオ,ウエハラ,シンタロウ,ポッドキャスト,YouTube,stand.fm,ラジオ",
-  authors: [{ name: "ウエハラ シンタロウ" }],
+  authors: [{ name: "ウエハラ" }],
   creator: "ウエハラ シンタロウ",
   publisher: "ウエハラレィディオ",
   robots: {
