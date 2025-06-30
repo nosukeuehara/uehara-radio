@@ -24,10 +24,10 @@ const Profile = () => {
           <h2 className="text-3xl font-bold mb-6 text-[#27515c]">
             ウエハラ シンタロウ
           </h2>
-          <div className="text-lg text-[#27515c] space-y-4 leading-relaxed">
-            <p>ポッドキャスト・YouTube・stand.fmで活動中。</p>
+          <div className="text-balance space-y-5 text-[#27515c]">
+            <p>YouTube・stand.fmで活動中。</p>
             <p>日々の出来事やリスナーからのおたよりを配信しています。</p>
-            <p>みなさまからのおたよりもお待ちしております。</p>
+            <p>みなさまからのおたよりをお待ちしております。</p>
           </div>
         </div>
       </div>

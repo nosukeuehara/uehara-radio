@@ -27,7 +27,7 @@ const InfoPage = () => {
           aria-label="外部リンク"
         >
           <Link
-            href="https://forms.gle/your-google-form-link"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfIkPYEWEHTTfnK-NSnmeL07UZrn1JR7y9zH7hNJvfjVoCsvg/viewform?usp=header"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#27515c] px-6 py-3 font-semibold text-lg relative group transition duration-300 ease-out hover:text-[#5394e7]"
