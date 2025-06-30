@@ -11,7 +11,7 @@ const InfoPage = () => {
       <div className="mb-8">
         <Image
           src="/uehararadioImg.png"
-          alt="ウエハラレイデイオのロゴ"
+          alt="ウエハラレィディオのロゴ"
           width={150}
           height={150}
           quality={85}
