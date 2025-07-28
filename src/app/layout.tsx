@@ -1,5 +1,5 @@
-import type { Metadata } from "next";
-import { Noto_Sans_JP, Roboto_Mono } from "next/font/google";
+import type {Metadata} from "next";
+import {Noto_Sans_JP, Roboto_Mono} from "next/font/google";
 
 import "./globals.css";
 import PageNavHeader from "@/components/PageNavHeader";
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "ウエハラレィディオは、ウエハラ シンタロウが運営するポッドキャスト・YouTube・stand.fmの公式サイトです。プロフィールや番組情報、おたより投稿フォームなどをご利用いただけます。",
   keywords:
     "ウエハラレィディオ,ウエハラ,シンタロウ,ポッドキャスト,YouTube,stand.fm,ラジオ",
-  authors: [{ name: "ウエハラ" }],
+  authors: [{name: "ウエハラ"}],
   creator: "ウエハラ シンタロウ",
   publisher: "ウエハラレィディオ",
   robots: {
@@ -99,8 +99,9 @@ export default function RootLayout({
       >
         <PageNavHeader
           contents={[
-            { label: "プロフィール", href: "#profile" },
-            { label: "基本情報", href: "#info" },
+            {label: "プロフィール", href: "#profile"},
+            {label: "募集フォーム", href: "#letter"},
+            {label: "各種リンク", href: "#info"},
           ]}
         />
         <main>{children}</main>
