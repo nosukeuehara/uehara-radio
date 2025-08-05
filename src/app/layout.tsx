@@ -3,6 +3,7 @@ import {Noto_Sans_JP, Roboto_Mono} from "next/font/google";
 
 import "./globals.css";
 import PageNavHeader from "@/components/PageNavHeader";
+import {pageNaveContents} from "@/utils/pageNav";
 
 const notoSansJP = Noto_Sans_JP({
   variable: "--font-noto-sans-jp",
@@ -97,13 +98,7 @@ export default function RootLayout({
       <body
         className={`${notoSansJP.variable} ${robotoMono.variable} antialiased`}
       >
-        <PageNavHeader
-          contents={[
-            {label: "プロフィール", href: "#profile"},
-            {label: "募集フォーム", href: "#letter"},
-            {label: "各種リンク", href: "#info"},
-          ]}
-        />
+        <PageNavHeader contents={pageNaveContents} />
         <main>{children}</main>
         <script
           type="application/ld+json"
