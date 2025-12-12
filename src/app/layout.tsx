@@ -71,6 +71,7 @@ export const metadata: Metadata = {
   verification: {
     google: "your-google-verification-code",
   },
+  metadataBase: new URL("https://uehara-radio.vercel.app"),
 };
 
 export default function RootLayout({
